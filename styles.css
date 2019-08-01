@@ -21,6 +21,7 @@ h1 {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 .buttons input {
   width: 300px;
