@@ -307,5 +307,5 @@ function donateFunction(){
     "https://www.ucsusa.org/"
   ];
   var randomNum=Math.floor(Math.random()*charities.length);
-  window.location=charities[randomNum];
+  window.open(charities[randomNum], "_blank");
 }
