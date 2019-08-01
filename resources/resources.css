@@ -1,0 +1,56 @@
+body{
+  font-size: 20px;
+  padding: 10px;
+  font-family: 'Cormorant', serif;
+  background-color: #8BA859;
+}
+
+h1 {
+    /*background-color: #798C35;*/
+    padding: 10px;
+    margin:10px;
+    font-size: 50px;
+    text-shadow: 1px 1px #000000;
+    font-family: 'Cormorant SC', serif;
+    letter-spacing: 5px;
+    text-align: center;
+    color: white;
+}
+
+.button{
+  border: none;
+  background: none;
+  padding:0;
+  font-size: 25px;
+  text-align: center;
+  font-family:'Cormorant', serif;
+  letter-spacing: 5px;
+  margin-top: 40px;
+}
+.resources, .furtherReading {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.resources input, .furtherReading input {
+  background-color: #F2F2F2;
+  height: 70px;
+  width: 300px;
+  margin: 5px;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Cormorant', serif;
+  font-size: 20px;
+}
+.paras {
+  display: flex;
+  justify-content: center;
+}
+
+.tips{
+  padding:30px;
+  background-color: #F2F2F2;
+  width: 1200px;
+
+}
