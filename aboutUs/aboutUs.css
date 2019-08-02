@@ -44,6 +44,7 @@ h1 {
   background-color: #FFF;
   padding: 5px;
   margin-bottom: 10px;
+  -webkit-appearance: none;
 }
 
 img {
