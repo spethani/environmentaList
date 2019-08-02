@@ -56,7 +56,16 @@ h1 {
   padding: 5px;
   font-family: 'Cormorant', serif;
 }
-
+@media only screen and (max-width: 1280px) {
+  .buttons input {
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 895px) {
+  .buttons input {
+    width: 300px;
+  }
+}
 @media only screen and (max-width: 980px) {
   .maps {
     width: 350px;
@@ -80,7 +89,6 @@ h1 {
     font-family: 'Cormorant', serif;
   }
 }
-
 @media only screen and (max-width: 760px) {
   .maps {
     width: 90%;
